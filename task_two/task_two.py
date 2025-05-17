@@ -24,7 +24,7 @@ for n in fib_numbers:
     )
     splay_times.append(splay_time)
 
-# Побудова графіка
+# Building the plot
 plt.plot(fib_numbers, lru_times, label="LRU Cache", marker="o")
 plt.plot(fib_numbers, splay_times, label="Splay Tree", marker="o")
 plt.xlabel("Число Фібоначчі (n))")
